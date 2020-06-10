@@ -57,10 +57,14 @@
             </div>
             <div id="12" class="card clean-card animate__animated animate__fadeOut hidden p-1">
                 <img src="https://lh3.googleusercontent.com/pw/ACtC-3eCbM-nEtW8gYTpfzgk6Ih1vyNSALBgmlep9wEIknNnxkOowZikqMxQwRc8A6WifIvjcRBXLBX2hSH-0AWI-b_371cpWk0QR19E9OYDra9oodsm8L9PFttp5Re0-M4JtdaoHF5hJ1spjwu3q2Vl6Gvc=w568-h757-no" class="card-img">
-                <h3 class="card-title">gaveta do banheiro 😊 <br> ❤❤❤❤❤❤❤❤❤❤❤❤</h3>
+                <h3 class="card-title">gaveta<br> ❤❤❤❤❤❤❤❤❤❤❤❤</h3>
             </div>
-            <div id="12" class="card clean-card animate__animated animate__fadeOut hidden p-1">
-                <h1 class="card-title">Agora me fala o que tu achou 😊, <a href="https://wa.me/5551999262182">clica aqui!</a></h1>
+            <div id="13" class="card clean-card animate__animated animate__fadeOut hidden p-1">
+                <img src="https://lh3.googleusercontent.com/pw/ACtC-3c_7O5fo1hkUtc-RajoxSg6WpRT9tTMSRvDbkpCdHaIMYNpgMfPn21CEIi2l76t2rq72YqdLSPeLeEAA0vk8kGpQA6BSwqzgedG6H4Q0JJYdq-4CAK2wxcQD2uE4QZSO098SE5UWpia-SeuOVpfz3ek=w580-h757-no?authuser=0" class="card-img">
+                <h3 class="card-title">do banheiro 😊 <br> ❤❤❤❤❤❤❤❤❤❤❤❤❤</h3>
+            </div>
+            <div id="14" class="card clean-card animate__animated animate__fadeOut hidden p-1">
+                <h1 class="card-title">Agora me fala o que tu achou 😊, <a class="btn btn-success rounded-pill" href="https://wa.me/5551999262182">clica aqui!</a></h1>
             </div>
         </div>
         <button class="btn btn-danger btn-lg right">></button>
@@ -79,17 +83,15 @@
             });
         });
         function anim(id, op) {
-            console.log(id);
             $('#' + id).toggleClass('animate__fadeIn animate__fadeOut hidden');
             id = id + op;
-            console.log(id);
             $('#' + id).toggleClass('animate__fadeIn animate__fadeOut hidden');
             if (id === 1) {
                 $('.left').addClass('hidden');
             } else {
                 $('.left').removeClass('hidden');
             }
-            if (id === 12) {
+            if (id === 15) {
                 $('.right').addClass('hidden');
             } else {
                 $('.right').removeClass('hidden');
